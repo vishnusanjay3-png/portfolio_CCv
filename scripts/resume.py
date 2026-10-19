@@ -16,7 +16,7 @@ from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, HRFlowable,
 OUT = Path(__file__).resolve().parent.parent / "public" / "resume.pdf"
 
 NAME = "Vishnu Sanjay"
-HEADLINE = "Creative Director | Brand Designer | Content Strategist"
+HEADLINE = "Content Creator | Content Strategist | Host | Creative Director"
 # (shown text, link). Email and phone stay readable as text; web links are named, not pasted URLs.
 CONTACT = [
     ("vishnu.sanjay3@gmail.com", "mailto:vishnu.sanjay3@gmail.com"),
@@ -27,7 +27,7 @@ CONTACT = [
 ]
 
 SUMMARY = (
-    "Creative director and brand designer who started out on film sets and now builds founders, brands and "
+    "Content creator, content strategist and creative director who started out on film sets and now builds founders, brands and "
     "products through strategic content and storytelling. Owns the full creative loop: research, strategy, "
     "scripting, direction, editing, publishing and reading the numbers. Recent work includes growing a founder's "
     "LinkedIn audience from 4.2K to 11.4K followers, taking an AI product from 20 to 350+ users, and building "
