@@ -389,6 +389,14 @@ a:is(:hover,:focus-visible) .arr,button:is(:hover,:focus-visible) .arr{color:var
 }
 @keyframes sweep{0%,70%{background-position:100% 0;filter:none}84%{filter:drop-shadow(0 0 14px rgba(210,58,46,.6))}100%{background-position:0 0;filter:none}}
 
+/* Rotating title above the name: fades up out, new title rises in (see RotatingTitle.tsx) */
+.hero .eyebrow .rot{display:inline-block;transition:opacity .4s ease,transform .4s ease}
+.hero .eyebrow .rot.out{opacity:0;transform:translateY(-30%)}
+.hero .eyebrow .rot.pre{opacity:0;transform:translateY(30%);transition:none}
+@media (prefers-reduced-motion:reduce){
+  .hero .eyebrow .rot,.hero .eyebrow .rot.out,.hero .eyebrow .rot.pre{transition:none;opacity:1;transform:none}
+}
+
 /* cursor: safelight torch + a ring that labels what you're pointing at (mouse only; see Cursor.tsx) */
 .torch,.cursor-ring{display:none}
 .has-cursor .torch{display:block;position:fixed;left:0;top:0;z-index:1;width:680px;height:680px;margin:-340px 0 0 -340px;border-radius:50%;pointer-events:none;background:radial-gradient(closest-side,rgba(210,58,46,.11),rgba(210,58,46,.045) 45%,transparent);mix-blend-mode:screen;opacity:0;transition:opacity .6s}
