@@ -18,19 +18,19 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: "Vishnu Sanjay",
   description:
-    "Vishnu Sanjay, creative director. Writer, director, editor, designer and photographer making founders, products and brands worth watching.",
+    "Vishnu Sanjay, content creator. Writer, director, editor, designer and photographer making founders, products and brands worth watching.",
   openGraph: {
-    title: "Vishnu Sanjay · Creative Director",
+    title: "Vishnu Sanjay · Content Creator",
     description: "Making founders, products and brands worth watching.",
     // The link preview (WhatsApp, LinkedIn, iMessage, X…). 1200×630 card: name + portrait.
-    images: [{ url: "/og.jpg", width: 1200, height: 630, alt: "Vishnu Sanjay, Creative Director" }],
+    images: [{ url: "/og.jpg", width: 1200, height: 630, alt: "Vishnu Sanjay, Content Creator" }],
     url: "/",
     siteName: "Vishnu Sanjay",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Vishnu Sanjay · Creative Director",
+    title: "Vishnu Sanjay · Content Creator",
     description: "Making founders, products and brands worth watching.",
     images: ["/og.jpg"],
   },
