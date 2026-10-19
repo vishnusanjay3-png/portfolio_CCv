@@ -42,7 +42,7 @@ export type Site = {
   intro: { title: string; hint: string };
   /** One per part of the page, in order: top, work, backstory, films, closing. "SC 01 · Title card" */
   nav: { scenes: string[] };
-  hero: { eyebrow: string; lead: string; intro: string };
+  hero: { eyebrows: string[]; lead: string; intro: string };
   showreel: { title: string; meta: string; slate: string };
   crafts: string[];
   work: {
