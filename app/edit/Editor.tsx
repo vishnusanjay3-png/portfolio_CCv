@@ -18,7 +18,7 @@ const SECTIONS: [string, string][] = [
 ];
 
 const LABELS: Record<string, string> = {
-  eyebrow: "Line above the name", lead: "Lead line", intro: "Intro",
+  eyebrows: "Titles above the name (one per line, in order)", lead: "Lead line", intro: "Intro",
   meta: "Small line on top", hook: "Hook", big: "Big number", bigCaption: "Big number caption",
   brief: "The situation", did: "What I did", result: "What happened", credits: "Credits",
   crafts: "Crafts", when: "Dates", org: "Company", role: "Role", body: "Text",
