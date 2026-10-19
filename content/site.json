@@ -13,7 +13,12 @@
     ]
   },
   "hero": {
-    "eyebrow": "Creative {Director}",
+    "eyebrows": [
+      "Content {Creator}",
+      "Content {Strategist}",
+      "{Host}",
+      "Creative {Director}"
+    ],
     "lead": "I make things worth watching.",
     "intro": "Started out on film sets. Now I make founders, brands and products hard to scroll past by strengthening their social presence through strategic content creation and creative storytelling, driving visibility, engagement, and growth. (Same job, really)"
   },
